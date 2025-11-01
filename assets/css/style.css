@@ -66,10 +66,9 @@ span {
 .links li {
     text-decoration: none;
     color: var(--font-color);
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px 15px;
     display: block;
-    font-size: 15px;
 }
 
 
@@ -224,11 +223,12 @@ img {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: black;
+        background: var(--background-color);
         z-index: 2;
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 
     .links.active {
@@ -237,12 +237,19 @@ img {
         gap: 40px;
     }
 
-    .menu li.active {
-        font-size: 24px;
+    .menu li {
         color: var(--font-color);
-        cursor: pointer;
+        font-size: 25px;
+        padding: 0px;
     }
 
+    .menu li:hover {
+         transform: scale(1.15); 
+    }
+
+    .menu li.active {
+        color: var(--primary-color);
+    }
 
 
 }
