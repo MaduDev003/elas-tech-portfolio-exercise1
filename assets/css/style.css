@@ -266,3 +266,37 @@ img {
         width: 387px;
     }
 }
+
+@media (min-width: 700px) and (max-width: 790px) {
+    header {
+        display: flex;
+        align-items: center;
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    header {
+        display: flex;
+        align-items: center;
+        padding: 0 4rem;
+        justify-content: space-between;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        gap: 3rem;
+    }
+}
